@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:beakn}",
+            "name": "Debug beakn",
+            "program": "${workspaceFolder:beakn}/.build/debug/beakn",
+            "preLaunchTask": "swift: Build Debug beakn"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:beakn}",
+            "name": "Release beakn",
+            "program": "${workspaceFolder:beakn}/.build/release/beakn",
+            "preLaunchTask": "swift: Build Release beakn"
+        }
+    ]
+}
